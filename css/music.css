@@ -1,0 +1,208 @@
+body {
+	background: #ff9999;
+}
+.announce {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: "Ariel";
+}
+.music-logo {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1;
+	grid-column-gap: 1em;
+	margin: -.5em;
+	background: white;
+}
+.music-logo input {
+	font-size: 30px;
+	border: 0;
+	color: #ff9999;
+	text-align: center;
+	width: 200px;
+}
+.music-logo i {
+	display: grid;
+	font-size: 30px;
+}
+.music-logo:placeholder {
+	color: #ff9999;
+}
+.music-logo button {
+	border: 0;
+	background: none;
+	color: #ff9999;
+}
+.music-logo>div:nth-child(1) {
+	display: grid;
+	grid-auto-rows: 120px;
+	text-align: left;
+	color:#ff9999;
+	align-items: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+	padding-left: 1em;
+}
+.music-logo>div:nth-child(2) {
+	display: grid;
+	align-items: center;
+	text-align: right;
+	padding-right: 1em;
+}
+.music-slogan {
+	display: grid;
+	text-align: center;
+	color: white;
+	font-family: 'Righteous';
+	font-size: 50px;
+}
+.music-button {
+	display: grid;
+	object-position: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 1em;
+}
+.action-btn {
+	font-size: 20px;
+	cursor: pointer;
+	color: FCBFB2;
+	border: 0;
+	background-color: white;
+}
+.action-btn-big {
+	font-size: 30px;
+	cursor: pointer;
+	color: FCBFB2;
+	border: 0;
+	background-color: white;
+}
+
+.music-info {
+	display: grid;
+	background-color: white;
+	box-shadow: 0px 5px 10px #D77D69;
+	border-radius: 10px;
+	object-position: center;
+	width: 100%;
+	max-height: 200px;
+}
+
+.music-info h4 {
+	display: grid;
+	text-align: center;
+	font-family: 'Righteous';
+	font-size: 25px;
+	color:#ED819D;
+}
+
+.music-slogan {
+	color: #F9D2C2;
+	font-family: 'Righteous' ;
+	font-size: 25px;
+	text-align: center;
+}
+
+.progress {
+	background: #FCBFB2;
+	border-radius: 5px;
+	cursor: pointer;
+	display: grid;
+	height: 4px;
+	max-width: 100%;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	transition: width 0.1s linear;
+}
+@media screen and (min-width: 1px) {
+	.music-logo {
+		grid-template-columns: 1fr;
+	}
+	.music-logo>div:nth-child(1) {
+	display: grid;
+	grid-auto-rows: 120px;
+	text-align: center;
+	color:#ff9999;
+	align-items: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+	padding-left: 1em;
+}
+.music-logo>div:nth-child(2) {
+	display: grid;
+	align-items: center;
+	text-align: center;
+	padding-right: 1em;
+}
+.thumb {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+}
+.thumb p {
+	display: grid;
+	font-family: "Righteous";
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 1em;
+	width: 100%;
+	background: linear-gradient(to right, #ff9999,#ffcc99);
+}
+.thumb img {
+	display: grid;
+	width: 100%;
+	margin-bottom: 1em;
+	max-height: 400px;
+	object-fit: scale-down;
+}
+
+@media screen and (min-width: 534px) {
+	.music-logo {
+		grid-template-columns: 1fr 1fr;
+	}
+	.music-logo>div:nth-child(1) {
+	display: grid;
+	grid-auto-rows: 120px;
+	text-align: left;
+	color:#ff9999;
+	align-items: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+	padding-left: 1em;
+}
+.music-logo>div:nth-child(2) {
+	display: grid;
+	align-items: center;
+	text-align: right;
+	padding-right: 1em;
+}
+.thumb {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+}
+.thumb p {
+	display: grid;
+	font-family: "Righteous";
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 1em;
+	width: 100%;
+	background: linear-gradient(to right, #ff9999,#ffcc99);
+}
+.thumb img {
+	display: grid;
+	width: 100%;
+	margin-bottom: 1em;
+	max-height: 400px;
+	object-fit: scale-down;
+}
