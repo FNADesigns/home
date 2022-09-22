@@ -521,9 +521,6 @@ body{
 	.char {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		width:100%;
-		max-height:240px;
-		grid-column-gap: 2em;
 	}
 
 }
