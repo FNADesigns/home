@@ -424,9 +424,65 @@ body{
 .ux2 {
 	grid-template-columns: 1fr;
 }
+	.topwrap {
+		display:grid;
+		font-size:0;
+		grid-template-columns: 0 1fr 1fr;
+	}
+	.topwrap>div:nth-child(2){
+	margin-top: .5rem;
+}
+.topwrap>div:nth-child(3){
+	display:grid;
+	margin-top: 2rem;
+
+}
+.about>div:nth-child(2){
+	background: white;
+	margin-top: 1em;
+	padding: 1em;
+	border-radius: 15px;
+}
+}
 @media screen and (min-width: 720px) {
 .ruff {
 	grid-template-columns: 1fr 1fr;
+}
+	.topwrap {
+	background: #C70039;
+	display: grid;
+	grid-template-columns: 1fr 8fr 1fr;
+	grid-auto-rows: minmax(100px,100px);
+	text-align: center;
+	margin: -.5em;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	color: white;
+}
+.topwrap a {
+	text-decoration: none;
+	color: white;
+}
+.topwrap a:hover {
+	color: brown;
+}
+
+.topwrap > div:nth-child(odd){
+	background: ;
+}
+.topwrap > div:nth-child(1){
+	text-align: left;
+	margin-left: 2em;
+	margin-top: 1.3em;
+}
+.topwrap > div:nth-child(2){
+	margin-top: .5em;
+}
+.topwrap > div:nth-child(3){
+	text-align: center;
+	margin-top: 1.3em;
+	margin-right: 1em;
+
 }
 @media screen and (min-width: 940px) {
 	.about {
